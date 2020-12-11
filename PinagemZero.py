@@ -1,5 +1,5 @@
 #Esse modulo apresenta a pinagem a ser utilizada em meus projetos com o Raspberry Pi Zero W.
-/*
+'''
 Alias------BCM----Pinoxx**Pinoxx-----BCM-----Alias
 
 3v3-xxxxxx-3V3----Pino01**Pino02-----5Vxxxxxxxx-5V
@@ -22,7 +22,7 @@ I2C-xxxxxxxxx-I2C-Pino27**Pino28-I2C-xxxxxxxxx-I2C
 -----------GPIO19-Pino35**Pino36-GPIO16-----------
 -----------GPIO26-Pino37**Pino38-GPIO20-----------
 GND-xxxxxxxxx-GND-Pino39**Pino40-GPIO21-----------
-*/
+'''
 
 define setmode = board
 
@@ -30,7 +30,7 @@ define IRIn = 11 #lirc.py
 define IROut = 13 #lirc.py
 
 define Porta = 16 #interrupcao_porta.py
-define Tranca = 18interrupcao_porta.py
+define Tranca = 18 #interrupcao_porta.py
 
 define Campainh = 10 #interfoneRasp.py
 define Portao = 12 #interfoneRasp.py
