@@ -3,44 +3,49 @@ Esse módulo apresenta a pinagem dos Raspberry 1, zero e 4, de acordo com meus u
 
 Zero W:
 
-3V3-xxxxxxxx-Pino1**Pino2-xxxxxxxxx-5V
+Alias------BCM----Pinoxx**Pinoxx-----BCM-----Alias
 
--------------Pino3**Pino4-xxxxxxxxx-5V
 
--------------Pino5**Pino6-xxxxxxxx-GND
+3v3-xxxxxx-3V3----Pino01**Pino02-----5Vxxxxxxxx-5V
 
--------------Pino7**Pino8-------------
+-----------GPIO02-Pino03**Pino04-----5Vxxxxxxxx-5V
 
-GND-xxxxxxxx-Pino9**Pino10------------
+-----------GPIO03-Pino05**Pino06----GNDxxxxxxx-GND
 
-------------Pino11**Pino12------------
+-----------GPIO04-Pino07**Pino08-GPIO14-----------
 
-------------Pino13**Pino14-xxxxxxx-GND
+GND-xxxxxxxxx-GND-Pino09**Pino10-GPIO15-----------
 
-------------Pino15**Pino16------------
+IRIn->>>>>-GPIO17-Pino11**Pino12-GPIO18-----------
 
-------------Pino17**Pino18------------
+IROut-<<<<-GPIO27-Pino13**Pino14-GNDxxxxxxxxxx-GND
 
-------------Pino19**Pino20------------
+-----------GPIO22-Pino15**Pino16-GPIO23-----------
 
-------------Pino21**Pino22------------
+3v3-xxxxxxxxx-3V3-Pino17**Pino18-GPIO24-----------
 
-------------Pino23**Pino24------------
+-----------GPIO10-Pino19**Pino20----GND-xxxxxx-GND
 
-GND-xxxxxxx-Pino25**Pino26------------
+-----------GPIO09-Pino21**Pino22-GPIO25-----------
 
-I2C-xxxxxxx-Pino27**Pino28-xxxxxxx-I2C
+-----------GPIO11-Pino23**Pino24-GPIO08-----------
 
-------------Pino29**Pino30-xxxxxxx-GND
+GND-xxxxxxxxx-GND-Pino25**Pino26-GPIO7------------
 
-------------Pino31**Pino32------------
+I2C-xxxxxxxxx-I2C-Pino27**Pino28-I2C-xxxxxxxxx-I2C
 
-------------Pino33**Pino34-xxxxxxx-GND
+-----------GPIO5-Pino29**Pino30-GND-xxxxxxxxxx-GND
 
-------------Pino35**Pino36------------
+-----------GPIO06-Pino31**Pino32-GPIO12-----------
 
-------------Pino37**Pino38------------
+-----------GPIO13-Pino33**Pino34-GND-xxxxxxxxx-GND
 
-GND-xxxxxxx-Pino39**Pino40------------
+-----------GPIO19-Pino35**Pino36-GPIO16-----------
 
+-----------GPIO26-Pino37**Pino38-GPIO20-----------
+
+GND-xxxxxxxxx-GND-Pino39**Pino40-GPIO21-----------
+
+
+![Pinagem](/Imagens/Raspberry-PI-Zero-Pinout-schema.jpg)
 
