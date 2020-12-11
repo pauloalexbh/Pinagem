@@ -2,6 +2,7 @@
 Esse módulo apresenta a pinagem dos Raspberry 1, zero e 4, de acordo com meus usos.
 
 Zero W:
+
 3V3-xxxxxxxx-Pino1**Pino2-xxxxxxxxx-5V
 
 -------------Pino3**Pino4-xxxxxxxxx-5V
